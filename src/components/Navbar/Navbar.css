@@ -1,0 +1,38 @@
+.app__navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-bg);
+  color: var(--color-text);
+  padding: 1rem 2rem;
+}
+
+.app__navbar-title {
+  display: flex;
+  align-items: center;
+}
+.app__navbar-title img {
+  margin-top: -4px;
+  width: 35px;
+}
+.app__navbar-title span {
+  margin-left: 5px;
+  font-size: 2.25em;
+  font-weight: 700;
+  color: var(--color-accent-dark)
+}
+
+.app__navbar-links {
+}
+.app__navbar-links ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 1.25em;
+}
+.app__navbar-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
