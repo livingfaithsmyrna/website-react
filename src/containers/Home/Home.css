@@ -1,0 +1,48 @@
+.app__home {
+}
+
+.app__home-hero-section {
+  background-image: url('../../assets/sanctuary-blurred-less.png');
+  background-color: #000000;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.app__home-hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.app__home-hero-content span {
+  margin-top: 15px;
+  font-size: 1.25em;
+}
+
+.app__home-hero-title {
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
+.app__home-button {
+  width: 128px;
+  height: 32px;
+}
+.app__home-button span {
+  font-size: 1em;
+  margin-bottom: 14px;
+  align-items: center;
+}
+.app__home-button img {
+  height: 16px;
+  margin-right: 3px;
+}
