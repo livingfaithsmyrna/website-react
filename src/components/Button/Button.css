@@ -1,15 +1,15 @@
 .button {
   display: flex;
-  height: 40px;
-  padding: 0;
+  height: 30px;
+  width: 150px;
   background: antiquewhite;
-  border: none;
   outline: none;
   border-radius: 5px;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
+  justify-content: space-between;
 }
 .button:hover,
 .button:active {
@@ -18,7 +18,12 @@
 
 .button__text,
 .button__icon {
-  display: inline-flex;
-  align-items: center;
-  padding: 0 8px;
+  height: 100%;
+}
+.button__text {
+  padding: 5px 0 0 9px;
+}
+.button__icon {
+  padding: 5px 8px 0 8px;
+  background: rgba(182,143,64,0.4);
 }
