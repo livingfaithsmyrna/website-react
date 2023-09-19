@@ -1,9 +1,11 @@
 .button {
   display: flex;
-  height: 30px;
+  height: 34px;
   width: 150px;
   background: antiquewhite;
-  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(182,143,64);
   border-radius: 5px;
   overflow: hidden;
   font-size: 14px;
@@ -21,9 +23,9 @@
   height: 100%;
 }
 .button__text {
-  padding: 5px 0 0 9px;
+  padding: 7px 0 0 12px;
 }
 .button__icon {
-  padding: 5px 8px 0 8px;
+  padding: 7px 8px 0 8px;
   background: rgba(182,143,64,0.4);
 }

@@ -4,7 +4,7 @@
 .app__home-hero-section {
   background-image: url('../../assets/sanctuary-60.jpg');
   background-color: #000000;
-  height: 500px;
+  height: 750px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,16 +34,9 @@
   font-size: 1.25em;
 }
 
-.app__home-button {
-  width: 128px;
-  height: 32px;
+.app__home-live-stream-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
-.app__home-button span {
-  font-size: 1em;
-  margin-bottom: 14px;
-  align-items: center;
-}
-.app__home-button img {
-  height: 16px;
-  margin-right: 3px;
-}
+

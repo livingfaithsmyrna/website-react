@@ -10,7 +10,9 @@ function Home() {
             <div className="app__home-hero-content">
               <div className="app__home-hero-title">Come grow with us!</div>
               <span>208 Jefferson Pk. | Sundays @ 11 am</span>
-              <Button type="submit" text="Live Stream" icon="podcast" />
+              <div className="app__home-live-stream-button">
+                <Button type="submit" text="Live Stream" icon="podcast" />
+              </div>
             </div>
           </div>
         </div>
