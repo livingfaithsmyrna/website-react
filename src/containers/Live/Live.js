@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Watch() {
+function Live() {
   return (
       <main>
-        <h1>Watch</h1>
+        <h1>Live</h1>
       </main>
   )
 }
 
-export default Watch
+export default Live
 

@@ -1,0 +1,5 @@
+footer {
+  min-height: 300px;
+  color: var(--color-button-bg-icon);
+  background: var(--color-accent-dark);
+}

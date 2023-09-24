@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   background: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-font-dark);
   padding: 1rem 2rem;
 }
 
@@ -21,10 +21,11 @@
   margin-left: 5px;
   font-size: 2.25em;
   font-weight: 700;
-  color: var(--color-accent-dark)
+  color: var(--color-font-logo)
 }
 
 .app__navbar-links {
+  overflow: hidden;
 }
 .app__navbar-links ul {
   display: flex;

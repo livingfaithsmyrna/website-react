@@ -1,10 +1,9 @@
 import './App.css';
 import {Routes, Route, Navigate} from "react-router-dom";
-import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./containers/Home/Home";
-import Watch from "./containers/Watch/Watch";
+import Live from "./containers/Live/Live";
 import Services from "./containers/Services/Services";
 import About from "./containers/About/About";
 import Gallery from "./containers/Gallery/Gallery";
@@ -19,7 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/home" element={ <Home /> } />
-        <Route path="/watch" element={ <Watch /> } />
+        <Route path="/live" element={ <Live /> } />
         <Route path="/services" element={ <Services /> } />
         <Route path="/about" element={ <About /> } />
         <Route path="/gallery" element={ <Gallery /> } />

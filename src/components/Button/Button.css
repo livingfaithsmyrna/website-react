@@ -2,10 +2,10 @@
   display: flex;
   height: 34px;
   width: 150px;
-  background: antiquewhite;
+  background: var(--color-button-bg-body);
   border-width: 1px;
   border-style: solid;
-  border-color: rgba(182,143,64);
+  border-color: var(--color-button-border);
   border-radius: 5px;
   overflow: hidden;
   font-size: 14px;
@@ -15,7 +15,7 @@
 }
 .button:hover,
 .button:active {
-  background: #F4EEE1;
+  background: var(--color-bg);
 }
 
 .button__text,
@@ -27,5 +27,5 @@
 }
 .button__icon {
   padding: 7px 8px 0 8px;
-  background: rgba(182,143,64,0.4);
+  background: var(--color-button-bg-icon);
 }
