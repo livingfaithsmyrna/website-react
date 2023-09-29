@@ -13,9 +13,11 @@
   cursor: pointer;
   justify-content: space-between;
 }
-.button:hover,
+.button:hover {
+  background: var(--color-button-bg-icon);
+}
 .button:active {
-  background: var(--color-bg);
+  background: var(--color-button-border);
 }
 
 .button__text,
