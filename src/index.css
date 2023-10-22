@@ -18,12 +18,28 @@
   --color-accent-light: #EDFFEC;
   --color-accent-dark: #141414;
 
-  /* BUTTON */
-  --color-button-bg-body: #FAECD7;
-  --color-button-bg-icon: #DFC79C;
-  --color-button-border: #B68F40;
-}
+  /* BUTTON THEMES */
+  /* DESERT */
+  --color-button-bg-body-desert: #FAECD7;
+  --color-button-bg-icon-desert: #DFC79C;
+  --color-button-border-desert: #B68F40;
+  --color-button-hover-desert: #DFC79C;
+  --color-button-active-desert: #DFC79C;
 
+  /* FACEBOOK */
+  --color-button-bg-body-facebook: #1366FF;
+  --color-button-bg-icon-facebook: #063CC0;
+  --color-button-border-facebook: #1366FF;
+  --color-button-hover-facebook: #063CC0;
+  --color-button-active-facebook: #063CC0;
+}
+/*
+01135A - dark navy
+063CC0 - fb blue
+1367FF - fb lite blue
+316FF6
+4267B2
+*/
 * {
   font-family: var(--font-base);
   box-sizing: border-box;

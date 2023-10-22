@@ -13,21 +13,25 @@ https://dev.to/sobhandash/how-to-simply-use-font-awesome-6-in-react-1bm8
 
 import React from 'react';
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faPodcast } from "@fortawesome/free-solid-svg-icons";
+import { faPodcast, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import './Button.css'
 
 const Button = (props) => {
   library.add(faPodcast)
+  library.add(faExternalLinkAlt)
+
+  const themeName = props.theme;
+
   return (
       <button
-        type={props.type || "button"}
-        className={"button"}
+        type={"button"}
+        className={`button button-${themeName}`}
         onClick={props.onClick}
         disabled={props.disabled}
       >
-        <span className={"button__text"}>{props.text}</span>
-        <span className={"button__icon"}>
+        <span className={`button__text-${themeName}`}>{props.text}</span>
+        <span className={`button__icon-${themeName}`}>
           <FontAwesomeIcon icon={props.icon} />
         </span>
       </button>

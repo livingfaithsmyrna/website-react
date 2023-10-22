@@ -2,32 +2,64 @@
   display: flex;
   height: 34px;
   width: 150px;
-  background: var(--color-button-bg-body);
   border-width: 1px;
   border-style: solid;
-  border-color: var(--color-button-border);
   border-radius: 5px;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   justify-content: space-between;
 }
-.button:hover {
-  background: var(--color-button-bg-icon);
-}
-.button:active {
-  background: var(--color-button-border);
-}
 
-.button__text,
-.button__icon {
+/* Facebook Theme */
+.button-facebook {
+  background: var(--color-button-bg-body-facebook);
+  border-color: var(--color-button-border-facebook);
+  color: white;
+
+  &:hover{
+    border-color: var(--color-button-hover-facebook);
+  }
+
+  &:active {
+    background: var(--color-button-active-facebook);
+  }
+}
+.button__text-facebook,
+.button__icon-facebook {
   height: 100%;
 }
-.button__text {
+.button__text-facebook {
   padding: 7px 0 0 12px;
 }
-.button__icon {
+.button__icon-facebook {
   padding: 7px 8px 0 8px;
-  background: var(--color-button-bg-icon);
+  background: var(--color-button-bg-icon-facebook);
+}
+
+/* Desert Theme */
+.button-desert {
+  background: var(--color-button-bg-body-desert);
+  border-color: var(--color-button-border-desert);
+  color: black;
+
+  &:hover{
+    border-color: var(--color-button-hover-desert);
+  }
+
+  &:active {
+    background: var(--color-button-active-desert);
+  }
+}
+.button__text-desert,
+.button__icon-desert {
+  height: 100%;
+}
+.button__text-desert {
+  padding: 7px 0 0 12px;
+}
+.button__icon-desert {
+  padding: 7px 8px 0 8px;
+  background: var(--color-button-bg-icon-desert);
 }

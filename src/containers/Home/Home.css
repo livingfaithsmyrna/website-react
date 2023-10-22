@@ -29,14 +29,24 @@
   font-weight: bold;
 }
 
-.app__home-hero-content span {
+.app__home-hero-content {
   margin-bottom: 5px;
   font-size: 1.25em;
+}
+
+.app__home-hero-caption {
+  font-size: 1.5em;
 }
 
 .app__home-live-stream-button {
   display: flex;
   justify-content: center;
   margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 1.25em;
+}
+
+.app__home-hero-tag {
+  margin-top: 20px;
 }
 
